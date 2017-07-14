@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#1976d2</color>
+    <color name="colorAccent">#536dfe</color>
+    <color name="white">#ffffff</color>
+    
+    <color name="class_color_bar">#00796b</color>
+    <color name="class_color_primary">#009688</color>
+
+    <color name="credit_color_bar">#991f25</color>
+    <color name="credit_color_primary">#cc3d44</color>
+
+
+    <color name="bus_color_bar">#e6ad12</color>
+    <color name="bus_color_primary">#f0ce26</color>
+    <color name="bus_gray">#e0e0e0</color>
+    <color name="normal">#bdbdbd</color>
+    <color name="red">#99471f</color>
+    <color name="brown">#3e2723</color>
+
+    <drawable name="toggle_on">#2196f3</drawable>
+    <drawable name="toggle_off">#bdbdbd</drawable>
+    <drawable name="color_red">#000</drawable>
+    <drawable name="color_green">#fff</drawable>
+    <drawable name="color_gray">#fff</drawable>
+
+    <color name="weather_back">#00bcd4</color>
+    <color name="weather_color_primary">#03A9F4</color>
+    <color name="weather_color_dark">#0288D1</color>
+
+
+
+    <color name="C1">#03A9f4</color>
+    <color name="C2">#009688</color>
+    <color name="C3">#7E57c2</color>
+    <color name="C4">#ef6c00</color>
+    <color name="C5">#795548</color>
+    <color name="C6">#4caf50</color>
+    <color name="C7">#e91e63</color>
+
+</resources>

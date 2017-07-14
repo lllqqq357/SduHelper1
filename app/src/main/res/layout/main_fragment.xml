@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+
+
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="3dp"
+            android:id="@+id/card_bus"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+
+            >
+
+
+            <LinearLayout
+                android:background="@drawable/bus"
+                android:orientation="horizontal"
+                android:paddingLeft="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_bus_logo"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp" />
+
+                <TextView
+                    android:paddingLeft="16dp"
+                    android:layout_gravity="center"
+                    android:text="校车查询"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2" />
+
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="3dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/card_class"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        >
+
+
+        <LinearLayout
+            android:background="@drawable/ic_class_logo"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:layout_gravity="center"
+                android:background="@drawable/ic_class"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:paddingLeft="16dp"
+                android:layout_gravity="center"
+                android:text="课程表"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                 />
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="3dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/card_credit"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        >
+
+
+        <LinearLayout
+            android:background="@drawable/ic_credit_card"
+            android:orientation="horizontal"
+            android:paddingLeft="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:layout_gravity="center"
+                android:background="@drawable/ic_credit"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:paddingLeft="16dp"
+                android:layout_gravity="center"
+                android:text="校园卡"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

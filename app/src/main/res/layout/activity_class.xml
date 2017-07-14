@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="#b2dfdb"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_class"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sduhelper.ClassActivity">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" >
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="周一"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" >
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="周二"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" >
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="周三"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" >
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="周四"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" >
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="周五"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" >
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="周六"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" >
+        <TextView
+            android:textSize="20dp"
+            android:gravity="center"
+            android:text="周日"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/re_class"
+        android:layout_weight="12"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+
+</LinearLayout>

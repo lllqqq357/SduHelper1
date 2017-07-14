@@ -1,0 +1,72 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="BusTheme" parent="Theme.AppCompat.Light">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/bus_color_primary</item>
+    <item name="colorPrimaryDark">@color/bus_color_bar</item>
+    <item name="colorAccent">@color/colorAccent</item>
+    <item name="android:navigationBarColor">@color/bus_color_primary</item>
+</style>
+
+    <style name="ClassTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/class_color_primary</item>
+        <item name="colorPrimaryDark">@color/class_color_bar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/class_color_primary</item>
+    </style>
+    <style name="CreditTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/credit_color_primary</item>
+        <item name="colorPrimaryDark">@color/credit_color_bar</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor">@color/credit_color_primary</item>
+    </style>
+
+    <style name="WeatherTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/weather_color_primary</item>
+        <item name="colorPrimaryDark">@color/weather_color_dark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorButtonNormal">@color/normal</item>
+    </style>
+
+    <style name="MyButton2" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:state_activated">@color/white</item>
+    </style>
+    <style name="MyButton4" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/credit_color_bar</item>
+        <item name="colorButtonNormal">@color/credit_color_primary</item>
+        <item name="android:state_activated">@color/white</item>
+    </style>
+    <style name="MyButton3" parent="Theme.AppCompat.Light">
+
+        <item name="colorControlHighlight">@color/bus_color_bar</item>
+        <item name="colorButtonNormal">@color/bus_color_primary</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sduhelper.CardActivity">
+
+
+
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:background="@color/credit_color_primary"
+        android:layout_weight="4"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:text="余额(元)"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:paddingLeft="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView14" />
+
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="15dp"
+            android:paddingLeft="25dp"
+            android:textColor="@color/white"
+            android:textSize="60dp"
+            android:text="441.23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12" />
+
+        <ImageView
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:srcCompat="@drawable/divider"
+            android:id="@+id/imageView3"
+            />
+        <TextView
+
+            android:padding="12dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="#e0989b"
+
+            android:text="账户详情"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView10" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>

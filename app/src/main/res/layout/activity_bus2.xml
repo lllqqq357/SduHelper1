@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_bus2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sduhelper.Bus2Activity">
+
+    <ListView
+        android:background="@color/bus_gray"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bus1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        />
+</RelativeLayout>
